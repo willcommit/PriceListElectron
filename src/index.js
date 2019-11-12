@@ -1,8 +1,8 @@
 const table = require("./table.js")
 
-const db = require('better-sqlite3')('../SpareParts.db');
+const db = require('better-sqlite3')('C:\\Users\\welfv\\OneDrive\\Skrivbord\\PriceListElectron\\helpers\\priceList.db');
  
-const rows = db.prepare('SELECT * FROM SparePart').all();
+const rows = db.prepare('SELECT * FROM products').all();
 
 // var data = [
 //     [

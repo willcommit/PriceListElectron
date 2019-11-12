@@ -25,10 +25,12 @@ const populateTable = (data) => {
             data:data,
             paging: true,
             columns: [
-                { data: 'ItemCode' },
-                { data: 'Description' },
-                { data: 'Type' },
-                { data: 'FCAPrice' }
+                { data: 'ItemNo' },
+                { data: 'Model' },
+                { data: 'UnitPrice' },
+                { data: 'Discount' },
+                { data: 'Cost' },
+                { data: 'Description'}
             ],
 
             dom: 'Bfrtip',
